@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{8DD0523A-917D-44BC-BDAF-DF4708F2D2B9}|Default">
+  <MonoDevelop.Ide.ItemProperties.DemoAPI__RESTFul__Core__Omar PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="Controllers/ValuesController.cs" Line="21" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoAPI_RESTFul_Core_Omar" expanded="True" selected="True">
+            <Node name="DemoAPI_RESTFul_Core_Omar" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
