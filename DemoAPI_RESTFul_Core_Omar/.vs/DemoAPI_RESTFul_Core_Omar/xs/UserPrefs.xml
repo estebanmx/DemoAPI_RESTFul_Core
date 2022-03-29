@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{8DD0523A-917D-44BC-BDAF-DF4708F2D2B9}|Default">
   <MonoDevelop.Ide.ItemProperties.DemoAPI__RESTFul__Core__Omar PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ValuesController.cs">
-    <Files>
-      <File FileName="Controllers/ValuesController.cs" Line="21" Column="28" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DemoAPI_RESTFul_Core_Omar" expanded="True" selected="True">
+          <Node name="DemoAPI_RESTFul_Core_Omar" expanded="True">
             <Node name="DemoAPI_RESTFul_Core_Omar" expanded="True">
+              <Node name="Contexts" expanded="True" />
               <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

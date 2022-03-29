@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+using DemoAPI_RESTFul_Core_Omar.Contexts;   //** Para utilizar el AppDbContext en los servicios
+using Microsoft.EntityFrameworkCore;        //** Instalar desde Manage NuGet Packages: Microsoft.EntityFrameworkCore.SqlServer
+
 namespace DemoAPI_RESTFul_Core_Omar
 {
     public class Startup
@@ -25,6 +28,9 @@ namespace DemoAPI_RESTFul_Core_Omar
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            //** Registrar el Contexto de la base de datos, importando las clases -- Para options.UseSqlServer instalar Microsoft.EntityFrameworkCore.SqlServer
+            //services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnectionStrings")));
 
             services.AddControllers();
         }
