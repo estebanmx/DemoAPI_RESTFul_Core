@@ -30,7 +30,7 @@ namespace DemoAPI_RESTFul_Core_Omar
         {
 
             //** Registrar el Contexto de la base de datos, importando las clases -- Para options.UseSqlServer instalar Microsoft.EntityFrameworkCore.SqlServer
-            //services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnectionStrings")));
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnectionStrings")));
 
             services.AddControllers();
         }
